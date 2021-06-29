@@ -1,0 +1,33 @@
+{
+	"name": "@pozition/simple-geometry",
+	"version": "0.0.1",
+	"description": "A simple lib implements by typescript that can make some 2d/3d geometry.",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/pozition/simple-geometry.git"
+	},
+	"license": "AGPL v3",
+	"author": {
+		"name": "onsummer",
+		"url": "https://github.com/onsummer"
+	},
+	"scripts": {
+		"prepare": "husky install"
+	},
+	"devDependencies": {
+		"lint-staged": "^11.0.0",
+		"prettier": "^2.3.2",
+		"rollup": "^2.52.3",
+		"typescript": "^4.3.4",
+		"husky": "^6.0.0"
+	},
+	"lint-staged": {
+		"*.{js,ts}": [
+      "prettier --write"
+    ]
+	},
+	"keywords": [
+		"geometry",
+		"graphic"
+	]
+}
